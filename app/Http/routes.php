@@ -19,7 +19,4 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-Route::resource('hse_clinicvisits', 'HSE_ClinicVisitsController');
-Route::auth();
-
-Route::get('/home', 'HomeController@index');
+Route::resource('web_hseclinicvisits', 'Web_HSEClinicVisitsController');
