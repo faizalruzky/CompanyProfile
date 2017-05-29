@@ -55,8 +55,20 @@ class RouteServiceProvider extends ServiceProvider
         $router->group([
             'namespace' => $this->namespace, 'middleware' => 'web',
         ], function ($router) {
-            require app_path('Http/routes.php');
+            /**
+             * Root Dashboard
+             */
+            //require app_path('Http/routes.php');
             require app_path('Http/Routes/Dashboard/route-dashboard.php');
+            require app_path('Http/Routes/Dashboard/route-login.php');
+            require app_path('Http/Routes/Dashboard/route-logout.php');
+            require app_path('Http/Routes/Dashboard/route-password.php');
+            require app_path('Http/Routes/Dashboard/route-register.php');
+
+            /**
+             * Root Public
+             */
+            require app_path('Http/Routes/Public/route-public.php');
         });
     }
 }

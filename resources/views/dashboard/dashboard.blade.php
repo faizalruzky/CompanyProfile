@@ -1,5 +1,7 @@
 @extends('layouts/dashboard.appdashboard')
 @section('content-dashboard')
+          
+
 <div class="wrapper">
 	<div class="sidebar" data-color="blue" data-image="assets/img/sidebar-5.jpg">
 
@@ -15,6 +17,11 @@
 
 	<div class="main-panel">
 		@include('dashboard/shared.top_nav')
+
+		<div class="panel-body">
+			<b> Welcome {{Auth::user()->name }}!</b> You are logged in
+		</div>
+
 
 		<div class="content">
 			<div class="container-fluid">

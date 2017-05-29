@@ -1,3 +1,4 @@
 <?php 
-Route::get('/dashboard','Dashboard\DashboardController@dashboard');
+Route::auth();
+Route::get('/administratorc51','Dashboard\DashboardController@dashboard');
 
