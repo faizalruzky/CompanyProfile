@@ -1,2 +1,2 @@
 <?php 
-Route::get('/','WEB_HSEClinicVisitsController@index');
+Route::get('/','HomeController@index');
