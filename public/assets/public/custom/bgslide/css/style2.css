@@ -9,12 +9,12 @@
 }
 .cb-slideshow:after {
     content: '';
-   /* background: transparent url(../images/pattern.png) repeat top left;*/
-    background-image: url(../images/pattern.png),url(../images/bg.png);
+    background: transparent url(../images/pattern.png) repeat top left;
+/*    background-image: url(../images/pattern.png),url(../images/bg.png);
     background-position: bottom left;
     background-repeat: repeat,no-repeat;
     background-image: transparent;
-    background-size:contain;
+    background-size: contain;*/
 
 }
 .cb-slideshow li span {
