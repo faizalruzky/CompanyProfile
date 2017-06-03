@@ -31,7 +31,7 @@
 
 
 <div class="container">
-  <nav class="navbar transparent navbar-default">
+  <nav class="navbar transparent navbar-default" id="navcolor">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -39,16 +39,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">MegaMenu</a>
+      <a class="navbar-brand" href="{{url('/')}}" id="color-navtext">MegaMenu</a>
     </div>
 
 
     <div class="collapse navbar-collapse js-navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown mega-dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="color-navtext">Collection <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
 
-          <ul class="dropdown-menu mega-dropdown-menu row">
+          <ul class="dropdown-menu mega-dropdown-menu row" id="navcolor">
             <li class="col-sm-3">
               <ul>
                 <li class="dropdown-header">New in Stores</li>
@@ -86,7 +86,7 @@
             <li class="col-sm-3">
               <ul>
                 <li class="dropdown-header">Dresses</li>
-                <li><a href="#">Unique Features</a></li>
+                <li><a href="#" style="color: white">Unique Features</a></li>
                 <li><a href="#">Image Responsive</a></li>
                 <li><a href="#">Auto Carousel</a></li>
                 <li><a href="#">Newsletter Form</a></li>
