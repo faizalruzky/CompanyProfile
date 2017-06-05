@@ -61,6 +61,18 @@
         color: white;
     }
 
+     .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+         color: blue;
+         text-decoration: none;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, 
+    .navbar-default .navbar-nav > li > a:focus {
+      color: blue;
+      text-decoration: none;
+    }
+
 
 </style>
 </head>

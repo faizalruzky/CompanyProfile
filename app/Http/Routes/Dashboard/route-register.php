@@ -1,3 +1,3 @@
 <?php 
-Route::GET('/administratorc51/register','Auth\AuthController@showRegistrationForm');
-Route::POST('/administratorc51/register','Auth\AuthController@register');
+Route::GET('/jj/register','Auth\AuthController@showRegistrationForm');
+Route::POST('/jj/register','Auth\AuthController@register');

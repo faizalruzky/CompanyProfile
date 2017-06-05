@@ -1,3 +1,3 @@
 
 <?php 
-Route::get('/administratorc51/logout','Auth\AuthController@logout');
+Route::get('/jj/logout','Auth\AuthController@logout');

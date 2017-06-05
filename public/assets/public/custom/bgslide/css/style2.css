@@ -354,3 +354,11 @@
 @media screen and (max-width: 600px) { 
 	.cb-slideshow li div h3 { /*font-size: 50px*/ }
 }
+
+/*#parallelogram { width: 150px; 
+	height: 100px; 
+	-webkit-transform: skew(20deg); 
+	-moz-transform: skew(20deg); 
+	-o-transform: skew(20deg);
+	background: red; 
+}*/

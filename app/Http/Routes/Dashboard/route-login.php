@@ -1,3 +1,3 @@
 <?php 
-Route::get('/administratorc51/login','Auth\AuthController@showLoginForm');
-Route::post('/administratorc51/login','Auth\AuthController@login');
+Route::get('/jj/login','Auth\AuthController@showLoginForm');
+Route::post('/jj/login','Auth\AuthController@login');

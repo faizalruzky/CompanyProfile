@@ -43,7 +43,7 @@ h1,
   border-left: 17px solid transparent;
   position: absolute;
   top: -15px;
-  left: 285px;
+  left: 485px;
   z-index: 10;
 }
 
@@ -54,7 +54,7 @@ h1,
   border-left: 19px solid transparent;
   position: absolute;
   top: -17px;
-  left: 283px;
+  left: 483px;
   z-index: 8;
 }
 
@@ -85,7 +85,7 @@ h1,
 }
 
 .mega-dropdown-menu .dropdown-header {
-  color: #428bca;
+  color: #328bca;
   font-size: 18px;
   font-weight: bold;
 }
@@ -97,3 +97,7 @@ h1,
 .mega-dropdown-menu .form-group {
   margin-bottom: 3px;
 }
+
+/*.navbar .brand, .navbar .nav > li > a:hover {
+    color: #F56E6E;
+}*/
