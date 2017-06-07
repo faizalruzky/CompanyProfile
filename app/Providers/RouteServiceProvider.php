@@ -58,7 +58,7 @@ class RouteServiceProvider extends ServiceProvider
             /**
              * Root Dashboard
              */
-            //require app_path('Http/routes.php');
+            require app_path('Http/routes.php');
             require app_path('Http/Routes/Dashboard/route-dashboard.php');
             require app_path('Http/Routes/Dashboard/route-login.php');
             require app_path('Http/Routes/Dashboard/route-logout.php');
@@ -69,6 +69,7 @@ class RouteServiceProvider extends ServiceProvider
              * Root Public
              */
             require app_path('Http/Routes/Public/route-public.php');
+            require app_path('Http/Routes/Public/route-ceo.php');
         });
     }
 }

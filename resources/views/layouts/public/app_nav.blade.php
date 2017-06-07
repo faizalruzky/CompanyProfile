@@ -82,7 +82,6 @@
 <body id="page">
 
 
- @yield('content-home')
  @yield('content-ceo')
 
 

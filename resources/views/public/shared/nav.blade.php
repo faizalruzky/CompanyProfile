@@ -1,34 +1,4 @@
-@extends('layouts/public.apphome')
-@section('content-home')
-<ul class="cb-slideshow">
-    <li><span>Image 01</span><div><h3>aku h3</h3></div></li>
-    <li><span>Image 02</span><div><h3>com·po·sure</h3></div></li>
-    <li><span>Image 03</span><div><h3>e·qua·nim·i·ty</h3></div></li>
-    <li><span>Image 04</span><div><h3>bal·ance</h3></div></li>
-    <li><span>Image 05</span><div><h3>qui·e·tude</h3></div></li>
-    <li><span>Image 06</span><div><h3>re·lax·a·tion</h3></div></li>
-</ul>
-<!-- Codrops top bar -->
-<div class="codrops-top">
-    <span class="right">
-        <a href="{{url('/')}}">HOME</a>
-        <a href="#">CONTACT US</a>
-    </span>
-    <div class="clr"></div>
-</div><!--/ Codrops top bar -->
- <!--    <header>
-        <h1>ChangShin <span>Indonesia</span></h1>
-        <h2>Jl. Gintung kerta, Klari - Karawang Indonesia</h2>
-
-    </header> -->
-
-
-    <!-- megamenu -->
-    <!-- <div class="title"></div> -->
-
-
-<div class="container">
-    <nav class="navbar transparent navbar-default" id="navcolor">
+<nav class="navbar transparent navbar-default" id="navcolor">
         <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -52,40 +22,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="color-navtext">Sustainability <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
 
                     <ul class="dropdown-menu mega-dropdown-menu row" id="navcolor">
-                        <!--<li class="col-sm-3">
-                           <ul>
-                            <li class="dropdown-header">New in Stores</li>
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                              <div class="carousel-inner">
-                                <div class="item active">
-                                  <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
-                                  <h4><small>Summer dress floral prints</small></h4>
-                                  <button class="btn btn-primary" type="button">49,99 €</button>
-                                  <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                              </div> -->
-                              <!-- End Item -->
-                               <!--  <div class="item">
-                                  <a href="#"><img src="http://placehold.it/254x150/ef5e55/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
-                                  <h4><small>Gold sandals with shiny touch</small></h4>
-                                  <button class="btn btn-primary" type="button">9,99 €</button>
-                                  <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                              </div> -->
-                              <!-- End Item -->
-                                <!-- <div class="item">
-                                  <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
-                                  <h4><small>Denin jacket stamped</small></h4>
-                                  <button class="btn btn-primary" type="button">49,99 €</button>
-                                  <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                              </div> -->
-                              <!-- End Item -->
-                              <!-- </div> -->
-                              <!-- End Carousel Inner -->
-                              <!--  </div> -->
-                              <!-- /.carousel -->
-                            <!-- <li class="divider"></li>
-                            <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-                          </ul>
-                      </li> -->
+                        
                       <li class="col-sm-3">
                           <ul>
                             <li class="dropdown-header">ES</li>
@@ -167,7 +104,3 @@
 
     <!-- /.nav-collapse -->
     </nav>
-    <img src="assets/public/custom/nav/title.png" class="img-responsive" id="title">
-</div>
-
-@endsection
