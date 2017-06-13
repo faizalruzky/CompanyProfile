@@ -74,12 +74,18 @@
       color: blue;
       text-decoration: none;
     }
-
+.bg{
+background: url(assets/public/custom/bgslide/images/1.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 </style>
 </head>
 
-<body id="page">
+<body id="page" class="bg">
 
 
  @yield('content-ceo')

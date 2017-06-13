@@ -156,6 +156,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Yajra\Oci8\Oci8ServiceProvider::class,
+         Khill\Lavacharts\Laravel\LavachartsServiceProvider::class,
         
 
     ],
@@ -204,7 +205,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Input' => Illuminate\Support\Facades\Input::class,
-
+            'Lava' => Khill\Lavacharts\Laravel\LavachartsFacade::class,
     ],
 
 ];

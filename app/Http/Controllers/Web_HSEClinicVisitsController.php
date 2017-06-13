@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Input;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Yajra\Oci8\Eloquent\OracleEloquent as Eloquent;
+use Khill\Lavacharts\Lavacharts;
 
 use App\Web_HSEClinicVisit;
 
@@ -60,6 +61,26 @@ class Web_HSEClinicVisitsController extends Controller
     public function show($id)
     {
         $web_hseclinicvisit = Web_HSEClinicVisit::findOrFail($id);
+        // $lava = new Lavacharts; // See note below for Laravel
+
+        // $finances = $lava->DataTable();
+
+        // $finances->addDateColumn('Year')
+        // ->addNumberColumn('Sales')
+        // ->addNumberColumn('Expenses')
+        // ->setDateTimeFormat('Y')
+        // ->addRow(['2004', 1000, 400])
+        // ->addRow(['2005', 1170, 460])
+        // ->addRow(['2006', 660, 1120])
+        // ->addRow(['2007', 1030, 54]);
+
+        // $lava->ColumnChart('Finances', $finances, [
+        //     'title' => 'Company Performance',
+        //     'titleTextStyle' => [
+        //         'color'    => '#eb6b2c',
+        //         'fontSize' => 14
+        //     ]
+        // ]);
         return view('web_hseclinicvisits.show', compact('web_hseclinicvisit'));
     }
 

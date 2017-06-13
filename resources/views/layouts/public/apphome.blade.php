@@ -83,7 +83,7 @@
 
 
  @yield('content-home')
- @yield('content-ceo')
+
 
 
 </body>
