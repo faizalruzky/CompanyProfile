@@ -19,9 +19,20 @@
       function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
-          ['products', 'Sales', 'Expenses','Profit'],
+          ['Month', 'Serious Accident', 'Accident','Incident'],
           @foreach($pastel as $pastels)
-          ['{{ $pastels->name }}',{{ $pastels->total }} ,{{ $pastels->total }},{{ $pastels->total }} ],
+          ['January',{{ $pastels->ajanuary }} ,{{ $pastels->bjanuary }},{{ $pastels->cjanuary }} ],
+          ['February',{{ $pastels->afebruary }} ,{{ $pastels->bfebruary }},{{ $pastels->cfebruary }} ],
+          ['March',{{ $pastels->amarch }} ,{{ $pastels->bmarch }},{{ $pastels->cmarch }} ],
+          ['April',{{ $pastels->aapril }} ,{{ $pastels->bapril }},{{ $pastels->capril }} ],
+          ['May',{{ $pastels->amay }} ,{{ $pastels->bmay }},{{ $pastels->cmay }} ],
+          ['June',{{ $pastels->ajune }} ,{{ $pastels->bjune }},{{ $pastels->cjune }} ],
+          ['July',{{ $pastels->ajuly }} ,{{ $pastels->bjuly }},{{ $pastels->cjuly }} ],
+          ['August',{{ $pastels->aaugust }} ,{{ $pastels->baugust }},{{ $pastels->caugust }} ],
+          ['September',{{ $pastels->aseptember }} ,{{ $pastels->bseptember }},{{ $pastels->cseptember }} ],
+          ['October',{{ $pastels->aoctober }} ,{{ $pastels->boctober }},{{ $pastels->coctober }} ],
+          ['November',{{ $pastels->anovember }} ,{{ $pastels->bnovember }},{{ $pastels->cnovember }} ],
+          ['December',{{ $pastels->adecember }} ,{{ $pastels->bdecember }},{{ $pastels->cdecember }} ],
           @endforeach
         ]);
 
