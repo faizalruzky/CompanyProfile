@@ -29,7 +29,7 @@ class HomeController extends Controller
             'a.September as aseptember',
             'a.October as aoctober',
             'a.November as anovember',
-            'a.March as adecember',
+            'a.December as adecember',
 
             'b.january as bjanuary',
             'b.february as bfebruary',
@@ -42,7 +42,7 @@ class HomeController extends Controller
             'b.September as bseptember',
             'b.October as boctober',
             'b.November as bnovember',
-            'b.March as bdecember',
+            'b.December as bdecember',
 
             'c.january as cjanuary',
             'c.february as cfebruary',
@@ -55,7 +55,7 @@ class HomeController extends Controller
             'c.September as cseptember',
             'c.October as coctober',
             'c.November as cnovember',
-            'c.March as cdecember')
+            'c.December as cdecember')
         ->get();
     	return view('public.accidentreport',['pastel'=>$pastel]);
     }

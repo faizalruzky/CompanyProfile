@@ -42,6 +42,7 @@ class Web_HSEClinicVisitsController extends Controller
     public function store(Request $request)
     {
         //DB::table('web_hseclinicvisits')->insert($request->all());
+        //dd($request->all());
         Web_HSEClinicVisit::create($request->all());
 
         // $add = new Web_HSEClinicVisit();

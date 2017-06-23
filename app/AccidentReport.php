@@ -10,5 +10,6 @@ class AccidentReport extends Model
     	'WEB_SERIOUSACCIDENTS',
     	'WEB_ACCIDENTS',
     	'WEB_INCIDENTS',
+    	'WEB_ACCIDENTREPORTS',
     ];
 }

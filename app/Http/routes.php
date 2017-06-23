@@ -21,3 +21,5 @@ Route::get('/home', 'HomeController@index');
 */
 
 Route::resource('web_hseclinicvisits', 'Web_HSEClinicVisitsController');
+
+Route::resource('web_accidentreports', 'Web_AccidentReportsController');

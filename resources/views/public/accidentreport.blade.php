@@ -47,7 +47,7 @@
       }
     </script>
  
-    <div id="columnchart_material" style="width: 900px; height: 500px"></div>
+    <div id="columnchart_material" style="width: 100%; height: 500px"></div>
 
 
 

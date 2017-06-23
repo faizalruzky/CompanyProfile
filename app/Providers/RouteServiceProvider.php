@@ -64,6 +64,7 @@ class RouteServiceProvider extends ServiceProvider
             require app_path('Http/Routes/Dashboard/route-logout.php');
             require app_path('Http/Routes/Dashboard/route-password.php');
             require app_path('Http/Routes/Dashboard/route-register.php');
+            require app_path('Http/Routes/Dashboard/route-accidentreport.php');
 
             /**
              * Root Public
