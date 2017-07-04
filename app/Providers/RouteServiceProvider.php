@@ -65,12 +65,14 @@ class RouteServiceProvider extends ServiceProvider
             require app_path('Http/Routes/Dashboard/route-password.php');
             require app_path('Http/Routes/Dashboard/route-register.php');
             require app_path('Http/Routes/Dashboard/route-accidentreport.php');
+            
 
             /**
              * Root Public
              */
             require app_path('Http/Routes/Public/route-public.php');
             require app_path('Http/Routes/Public/route-ceo.php');
+            require app_path('Http/Routes/Public/route-hse_accidentreport.php');
         });
     }
 }

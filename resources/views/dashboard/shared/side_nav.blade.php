@@ -35,7 +35,7 @@
                     </div>
 
            
-                <a href="#" class="list-group-item"><i class="pe-7s-note2"></i><p>Accident Report</p></a>
+                <a href="{{ url('jj/accidentreports') }}" class="list-group-item"><i class="pe-7s-note2"></i><p>Accident Report</p></a>
             </div>
         </li>
 

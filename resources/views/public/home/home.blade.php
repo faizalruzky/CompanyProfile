@@ -9,18 +9,12 @@
     <li><span>Image 06</span><div><h3>re·lax·a·tion</h3></div></li>
 </ul>
 <!-- Codrops top bar -->
-<div class="codrops-top">
-    <span class="right">
-        <a href="{{url('/')}}">HOME</a>
-        <a href="#">CONTACT US</a>
-    </span>
-    <div class="clr"></div>
-</div><!--/ Codrops top bar -->
+@include('public/shared/topbar')
 
 
 <div class="container">
     @include('public/shared/nav')
-    <img src="assets/public/custom/nav/title.png" class="img-responsive" id="title">
+    <img src="../../../assets/public/custom/nav/title.png" class="img-responsive" id="title">
 </div>
 
 @endsection

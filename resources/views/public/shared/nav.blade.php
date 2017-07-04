@@ -60,7 +60,7 @@
                             <li class="dropdown-header">HSE</li>
                             <li><a href="#" style="color: white">Clinic Visit</a></li>
                             <li><a href="#" style="color: white">MCU Scedule</a></li>
-                            <li><a href="#" style="color: white">Accident Report</a></li>
+                            <li><a href="{{ url('sustainability/hse_accidentreports') }}" style="color: white">Accident Report</a></li>
                             <li>
                              <a href="#pregnant" class="dropdown-toggle" data-toggle="collapse" data-parent="#MainMenu" id="color-navtext">Pregnant Women <span class="glyphicon glyphicon-chevron-down pull-right"></span></a> 
                              <div class="collapse" id="pregnant">
