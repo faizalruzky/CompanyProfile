@@ -17,7 +17,7 @@
     background: white;
     box-shadow: 10px 10px 5px #888888;
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 360px) {
     .charts {
         width: 80%;
         height: 100%;

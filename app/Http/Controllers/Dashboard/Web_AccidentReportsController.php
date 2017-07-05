@@ -44,7 +44,7 @@ class Web_AccidentReportsController extends Controller
         //dd($request->all());
         Web_AccidentReport::create($request->all());
         flash()->success('Web_AccidentReport has been created successfully.');
-        return redirect('dashboard/hse_accidentreports');
+        return redirect('jj/accidentreports');
     }
 
     /**
@@ -83,7 +83,7 @@ class Web_AccidentReportsController extends Controller
         $web_accidentreport = Web_AccidentReport::findOrFail($id);
         $web_accidentreport->update($request->all());
         flash()->success('Web_AccidentReport has been updated successfully.');
-        return redirect('dashboard/hse_accidentreports');
+        return redirect('jj/accidentreports');
     }
 
     /**
@@ -97,6 +97,6 @@ class Web_AccidentReportsController extends Controller
         $web_accidentreport = Web_AccidentReport::findOrFail($id);
         $web_accidentreport->delete();
         flash()->success('Web_AccidentReport has been deleted successfully.');
-        return redirect('dashboard/hse_accidentreports');
+        return redirect('jj/accidentreports');
     }
 }

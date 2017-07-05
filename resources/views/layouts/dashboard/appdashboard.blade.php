@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta name="_token" content="{{ app('Illuminate\Encryption\Encrypter')->encrypt(csrf_token()) }}" />
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/png" href="../../../assets/dashboard/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />

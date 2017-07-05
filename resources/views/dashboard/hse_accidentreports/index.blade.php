@@ -19,7 +19,6 @@
 
 
 <div class="panel-body">
-  <div class="container">
     <ol class="breadcrumb">
       <li><a href="{{ url('/home') }}">Home</a></li>
       <li><a href="{{ url('web_accidentreports') }}">Web_AccidentReports</a></li>
@@ -61,7 +60,6 @@
       </div>
     </div>
     <!-- ================================================== -->
-  </div>
   </div>
   <div class="content">
       <div class="container-fluid">
