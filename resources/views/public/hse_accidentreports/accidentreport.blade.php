@@ -13,6 +13,7 @@
     overflow: hidden;
     margin: auto;
     margin-top: 50px;
+    padding: 25px 25px 25px 25px;
     background: white;
     box-shadow: 10px 10px 5px #888888;
 }

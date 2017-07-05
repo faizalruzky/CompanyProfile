@@ -56,7 +56,7 @@
         margin:0 auto;
     }
     #navcolor{
-         background: rgba(0, 0, 0, 0.2);
+         background: rgba(0, 0, 0, 0.5);
          border-color: rgba(0, 0, 0, 0);
     }
     #color-navtext{
